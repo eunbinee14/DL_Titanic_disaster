@@ -4,7 +4,7 @@
 모델 : 딥러닝 pytorch Neural Network 이용
 
 독립변수 : 'Pclass','Sex','SibSp','Parch','Age'
-종속변수 : 'Survived'
+\n 종속변수 : 'Survived'
 
 ### data preprocessing 
 age 변수는 결측치가 많기 때문에 Name 변수에서 last name 추출하여 randomforestregressor 모델 이용하여 분석 후 결측치 채우기.

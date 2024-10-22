@@ -15,12 +15,12 @@ n_estimator : 300
 age 값은 StandardScaler 스케일러 이용하여 평균 0, 분산 1인 정규분포 갖도록 통일
 
 ### tuning
-epoch : 400
-batch size = 64
+- epoch : 400
+- batch size = 64
 
-input : 5 layer
-hidden : 6 layer
-output : 1 layer
+- input : 5 layer
+- hidden : 6 layer
+- output : 1 layer
 
 ### module
 - ReLU 함수

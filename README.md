@@ -3,7 +3,7 @@
 
 모델 : 딥러닝 pytorch Neural Network 이용
 
-독립변수 : 'Pclass','Sex','SibSp','Parch','Age'
+독립변수 : 'Pclass', 'Sex', 'SibSp', 'Parch', 'Age'
 
 종속변수 : 'Survived'
 

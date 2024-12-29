@@ -1,4 +1,4 @@
-# DL - titanic disaster
+# DL_Titanic disaster
 - 타이타닉 생존율 딥러닝 이용하여 분석 및 성능 향상
 
 ## 1. Project Information

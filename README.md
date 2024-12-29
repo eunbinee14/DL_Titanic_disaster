@@ -35,5 +35,5 @@ age 값은 StandardScaler 스케일러 이용하여 평균 0, 분산 1인 정규
 - eps = 1e-8
 - weight decay = 0.001
 
-## output
+## Output
 Best score : 0.80143

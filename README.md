@@ -2,18 +2,16 @@
 - 타이타닉 생존율 딥러닝 이용하여 분석 및 성능 향상
 
 ## 1. Project Information
-모델 : 딥러닝 pytorch Neural Network 이용
-
-독립변수 : 'Pclass', 'Sex', 'SibSp', 'Parch', 'Age'
-
-종속변수 : 'Survived'
+- 모델 : 딥러닝 pytorch Neural Network 이용
+- 독립변수 : 'Pclass', 'Sex', 'SibSp', 'Parch', 'Age'
+- 종속변수 : 'Survived'
 
 ## 2. Data preprocessing 
-age 변수는 결측치가 많기 때문에 Name 변수에서 last name 추출하여 randomforestregressor 모델 이용하여 분석 후 결측치 채우기.
-n_estimator : 300
+- age 변수는 결측치가 많기 때문에 Name 변수에서 last name 추출하여 randomforestregressor 모델 이용하여 분석 후 결측치 채우기.
+- n_estimator : 300
 
 ## 3. Data scaling 
-age 값은 StandardScaler 스케일러 이용하여 평균 0, 분산 1인 정규분포 갖도록 통일
+- age 값은 StandardScaler 스케일러 이용하여 평균 0, 분산 1인 정규분포 갖도록 통일
 
 ## 4. tuning
 - epoch : 400

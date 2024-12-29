@@ -1,4 +1,4 @@
-# Deeping Learning - titanicdisaster
+# Deeping Learning - titanic disaster
 ## 타이타닉 생존율 딥러닝 이용하여 분석 및 성능 향상
 
 모델 : 딥러닝 pytorch Neural Network 이용

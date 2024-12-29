@@ -7,14 +7,14 @@
 
 종속변수 : 'Survived'
 
-### data preprocessing 
+### 1. data preprocessing 
 age 변수는 결측치가 많기 때문에 Name 변수에서 last name 추출하여 randomforestregressor 모델 이용하여 분석 후 결측치 채우기.
 n_estimator : 300
 
-### data scaling 
+### 2. data scaling 
 age 값은 StandardScaler 스케일러 이용하여 평균 0, 분산 1인 정규분포 갖도록 통일
 
-### tuning
+### 3. tuning
 - epoch : 400
 - batch size = 64
 
@@ -22,12 +22,12 @@ age 값은 StandardScaler 스케일러 이용하여 평균 0, 분산 1인 정규
 - hidden : 6 layer
 - output : 1 layer
 
-### module
+### 4. module
 - ReLU 함수
 - dropout 0.2
 - return시 sigmoid 함수
 
-### optimizer
+### 5. optimizer
 - Adam
 - learning rate = 0.001
 - betas = (0.9, 0.999)

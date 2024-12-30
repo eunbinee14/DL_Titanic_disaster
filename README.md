@@ -23,7 +23,7 @@
 </br></br>
 
 
-## 4. tuning
+## 4. Tuning
 - epoch : 400
 - batch size = 64
 
@@ -34,14 +34,14 @@
 </br></br>
 
 
-## 5. module
+## 5. Module
 - ReLU 함수
 - dropout 0.2
 - return시 sigmoid 함수
 
 </br></br>
 
-## 6. optimizer
+## 6. Optimizer
 - Adam
 - learning rate = 0.001
 - betas = (0.9, 0.999)
